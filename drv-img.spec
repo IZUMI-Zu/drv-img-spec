@@ -10,7 +10,7 @@ Source0: https://github.com/IZUMI-Zu/%{name}/archive/%{name}-%{version}.tar.gz
 BuildArch: noarch
 BuildRequires: python3-setuptools python3-devel
 Requires: createrepo_c genisoimage isomd5sum kmod
-Requires: python3-packaging python3-rpm rpm coreutils squashfs-tools util-linux
+Requires: python3-packaging python3-rpm python3-kickstart rpm coreutils squashfs-tools util-linux
 
 %description
 A cli tool to inject diver and package to Linux iso image
